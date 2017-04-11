@@ -383,7 +383,7 @@ interface "planet"
 		pad 10 0
 	
 	visible if "has trade"
-	sprite "ui/planet dialog button"
+		sprite "ui/planet dialog button"
 		center -400 90
 	button t "_Trading"
 		center -400 90
@@ -420,6 +420,14 @@ interface "planet"
 		dimensions 140 40
 		size 18
 		align right
+		pad 10 0
+	sprite "ui/planet dialog button"
+		center 280 30
+	button s "_Shore _Leave"
+		center 280 30
+		dimensions 140 40
+		size 18
+		align left
 		pad 10 0
 
 
